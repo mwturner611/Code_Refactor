@@ -1,0 +1,150 @@
+/* remove any padding or margin on screen */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* make entire background offwhite and add padding for fixed header */
+body {
+    background-color: #d9dcd6;
+    padding-top: 95px;
+}
+
+/* define header class elements and make it fixed */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+/* define h1 to display inline and change font size */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* change color of seo */
+.seo {
+    color: #d9dcd6;
+}
+
+/* add location of list and font attributes */
+.list {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* make list items display horizontally  */
+.listi {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* update link color */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* change paragraph font size */
+p {
+    font-size: 16px;
+}
+
+/* add attributes to background image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;   
+}
+
+/* establishes margins and width for content class */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* establishes attributes of 3 divs */
+#search-engine-optimization, #online-reputation-management,#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Headers over subsections on left */
+.header2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* class for two images on left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+/* class for image on the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+/* defines attributes for box on right side of screen to house benefits */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* establishes attributes of benefits listings */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Align headers in benefits area */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Set size and alignment of benefit images */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Footer elements */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* footer header font size */
+#fheader {
+    font-size: 20px;
+}
